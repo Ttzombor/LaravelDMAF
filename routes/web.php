@@ -28,7 +28,7 @@ $group_data = ['namespace' => 'Blog\Admin',
 
 Route::group($group_data, function (){
 
-    $methods = ['index', 'update', 'store', 'edit', 'create'];
+    $methods = ['index', 'update', 'store', 'edit', 'create', 'destroy'];
     Route::resource('categories', 'CategoryController')
         ->only($methods)
         ->names('blog.admin.categories');
