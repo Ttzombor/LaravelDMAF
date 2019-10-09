@@ -1,10 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b59e34e7-88d9-41ba-88c7-4df6624e33c9" name="Default Changelist" comment="">
+    <list default="true" id="b59e34e7-88d9-41ba-88c7-4df6624e33c9" name="Default Changelist" comment="Categories update Validate">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Blog/Admin/CategoryController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Blog/Admin/CategoryController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/blog/admin/category/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/blog/admin/category/index.blade.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -141,11 +139,12 @@
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ChangesTree.GroupingKeys" value="directory&#10;repository" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.EditorConfig" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -184,7 +183,7 @@
       <workItem from="1570378077636" duration="10064000" />
       <workItem from="1570469605820" duration="1699000" />
       <workItem from="1570544115581" duration="19000" />
-      <workItem from="1570611362498" duration="1918000" />
+      <workItem from="1570611362498" duration="3325000" />
     </task>
     <task id="LOCAL-00001" summary="Categories Admin Views and Controlelr">
       <created>1570611612253</created>
@@ -193,7 +192,14 @@
       <option name="project" value="LOCAL" />
       <updated>1570611612253</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Categories update Validate">
+      <created>1570613325385</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1570613325385</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -214,6 +220,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Categories Admin Views and Controlelr" />
-    <option name="LAST_COMMIT_MESSAGE" value="Categories Admin Views and Controlelr" />
+    <MESSAGE value="Categories update Validate" />
+    <option name="LAST_COMMIT_MESSAGE" value="Categories update Validate" />
   </component>
 </project>
