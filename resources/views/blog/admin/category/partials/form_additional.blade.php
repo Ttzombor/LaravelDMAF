@@ -1,4 +1,4 @@
-
+<input class="btn btn-primary mt-4" type="submit" value="Save">
 <div class="container">
     <div class="row justify-content-center">
         <label for="">Status</label>

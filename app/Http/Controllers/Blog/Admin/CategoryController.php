@@ -75,10 +75,34 @@ class CategoryController extends BaseController
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
+
+
+
     public function update(Request $request, $id)
     {
-        dd(__METHOD__, $request->all(), $id);
-    }
+        $item = BlogCategory::find($id);
+
+        if(empty($item))
+            return back()
+                ->withErrors('msg', "Id = [{$id}] has not found.")
+                ->withInput();
+
+        $data = $request->all();
+        dd($data);
+        $result = $item->fill($data)->save();
+
+        if($result){
+            return redirect()
+                ->route('blog.admin.categories.edit', $item->id)
+                ->with(['success' => "Successfully saved"]);
+        }
+        else {
+            return back()
+                ->withErrors(['msg' => "Saving Error"])
+                ->withInput();
+        }
+
+}
 
     /**
      * Remove the specified resource from storage.
