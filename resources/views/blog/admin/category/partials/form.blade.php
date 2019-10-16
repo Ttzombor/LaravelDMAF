@@ -24,7 +24,7 @@
 
                             <label for="">Slug</label>
                             <input class="form-control" type="text" name="slug" placeholder="Autogeneration"
-                            value="{{$item->slug ?? ""}}" readonly="">
+                            value="{{$item->slug ?? ""}}">
 
 
 
