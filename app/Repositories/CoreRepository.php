@@ -4,12 +4,16 @@ namespace App\Repositories;
 
 use Illuminate\Database\Eloquent\Model;
 
+
+/**
+ * Class CoreRepository
+ * @package App\Repositories
+ */
 abstract class CoreRepository {
 
     /**
         @var Model;
      */
-
     protected $model;
 
 

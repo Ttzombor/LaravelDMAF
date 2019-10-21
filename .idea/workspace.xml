@@ -1,14 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b59e34e7-88d9-41ba-88c7-4df6624e33c9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/Repositories/BlogCategoryRepository" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Repositories/CoreRepository.php" afterDir="false" />
+    <list default="true" id="b59e34e7-88d9-41ba-88c7-4df6624e33c9" name="Default Changelist" comment="Creating Repositories">
+      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/tibor.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/laravel-plugin.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Repositories/BackendServiceProvider.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Repositories/BlogCategoryRepository.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.phpstorm.meta.php" beforeDir="false" afterPath="$PROJECT_DIR$/.phpstorm.meta.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_ide_helper.php" beforeDir="false" afterPath="$PROJECT_DIR$/_ide_helper.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Blog/Admin/BaseController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Blog/Admin/BaseController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Blog/Admin/CategoryController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Blog/Admin/CategoryController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/database.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/database.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/blog/admin/category/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/blog/admin/category/index.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/blog/admin/category/partials/form.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/blog/admin/category/partials/form.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Repositories/BlogCategoryRepository" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Repositories/CoreRepository.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Repositories/CoreRepository.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/seeds/BlogCategoriesTableSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeds/BlogCategoriesTableSeeder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/blog/admin/category/partials/categories.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/blog/admin/category/partials/categories.blade.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -150,7 +158,8 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.EditorConfig" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="preferences.fileTypes" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -177,6 +186,7 @@
   </component>
   <component name="StructureViewFactory">
     <option name="AUTOSCROLL_MODE" value="false" />
+    <option name="AUTOSCROLL_FROM_SOURCE" value="true" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -195,7 +205,9 @@
       <workItem from="1570611362498" duration="1918000" />
       <workItem from="1570714978793" duration="1533000" />
       <workItem from="1571214524710" duration="14000" />
-      <workItem from="1571215626167" duration="2960000" />
+      <workItem from="1571215626167" duration="8387000" />
+      <workItem from="1571404209892" duration="599000" />
+      <workItem from="1571642127460" duration="5085000" />
     </task>
     <task id="LOCAL-00001" summary="Categories Admin Views and Controlelr">
       <created>1570611612253</created>
@@ -211,7 +223,14 @@
       <option name="project" value="LOCAL" />
       <updated>1570615659644</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Creating Repositories">
+      <created>1571218743068</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1571218743068</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -233,6 +252,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Categories Admin Views and Controlelr" />
     <MESSAGE value="Revert &quot;Categories update Validate&quot;&#10;&#10;This reverts commit 6b6fdd71" />
-    <option name="LAST_COMMIT_MESSAGE" value="Revert &quot;Categories update Validate&quot;&#10;&#10;This reverts commit 6b6fdd71" />
+    <MESSAGE value="Creating Repositories" />
+    <option name="LAST_COMMIT_MESSAGE" value="Creating Repositories" />
   </component>
 </project>
