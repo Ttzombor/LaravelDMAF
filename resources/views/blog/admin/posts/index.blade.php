@@ -47,7 +47,7 @@
                             <a class="btn btn-default" href="{{route('blog.admin.posts.edit', $post)}}">
                                 <i class="fa fa-edit">Edit</i>
                             </a>
-                            <button type="submit" class="btn">
+                            <button type="submit" class="btn" href="{{route('blog.admin.posts.destroy', $post)}}">
                                 <i class="fa fa-trash">Delete</i>
                             </button>
                         </form>

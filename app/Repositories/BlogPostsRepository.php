@@ -41,13 +41,21 @@ class BlogPostsRepository extends CoreRepository{
             ->orderBy('id', 'DESC')
            /* ->with(['category', 'user'])*/
                ->with([
-                   'category' => function ($query) {
+                   /*'category' => function ($query) {
                    $query->select(['id', 'title']);
-                   },
+                   },*/
+                   'category:id,title',
                    'user:id,name'
            ])
             ->paginate(25);
 
+
+
+        return $result;
+    }
+
+    public function getEdit($id){
+        $result =  $this->startConditions()->find($id);
 
         return $result;
     }

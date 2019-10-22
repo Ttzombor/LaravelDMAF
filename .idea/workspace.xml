@@ -2,12 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b59e34e7-88d9-41ba-88c7-4df6624e33c9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/Auth/ConfirmPasswordController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Repositories/BlogPostsRepository.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/blog/admin/posts/index.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/blog/admin/posts/create.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/blog/admin/posts/edit.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/blog/admin/posts/partials/categories.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/blog/admin/posts/partials/form.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/blog/admin/posts/partials/form_additional.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/BlogCategory.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/BlogCategory.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Models/BlogPost.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/BlogPost.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Repositories/BlogPostsRepository.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Repositories/BlogPostsRepository.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/blog/admin/posts/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/blog/admin/posts/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/blog/posts/index.blade.php" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -147,17 +152,18 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../LaravelLearning/blog/resources/views" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/resources/views/blog/admin/posts" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="editing.templates" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/app/Repositories" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/app/Models" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/resources/views/blog/admin/posts" />
+      <recent name="$PROJECT_DIR$/app/Repositories" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -202,7 +208,8 @@
       <workItem from="1571215626167" duration="8387000" />
       <workItem from="1571404209892" duration="599000" />
       <workItem from="1571642127460" duration="6346000" />
-      <workItem from="1571664420567" duration="4074000" />
+      <workItem from="1571664420567" duration="7544000" />
+      <workItem from="1571734919069" duration="8672000" />
     </task>
     <task id="LOCAL-00001" summary="Categories Admin Views and Controlelr">
       <created>1570611612253</created>
@@ -232,7 +239,14 @@
       <option name="project" value="LOCAL" />
       <updated>1571648286701</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Creating BlogPosts Controller/Model/Repository/Blade">
+      <created>1571671232011</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1571671232011</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -256,6 +270,7 @@
     <MESSAGE value="Revert &quot;Categories update Validate&quot;&#10;&#10;This reverts commit 6b6fdd71" />
     <MESSAGE value="Creating Repositories" />
     <MESSAGE value="Creating Category Repositories" />
-    <option name="LAST_COMMIT_MESSAGE" value="Creating Category Repositories" />
+    <MESSAGE value="Creating BlogPosts Controller/Model/Repository/Blade" />
+    <option name="LAST_COMMIT_MESSAGE" value="Creating BlogPosts Controller/Model/Repository/Blade" />
   </component>
 </project>
