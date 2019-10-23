@@ -28,15 +28,15 @@
                                            class="form-control"
                                            name="title"
                                            placeholder="Title category"
-                                           value="{{$item->title ?? ""}}" required>
+                                           value="{{old('title', $item->title ?? "")}}" required>
                                 </div>
                                 <div class="form-group">
                                     Статья
-                                    <textarea name="description"
-                                              id = "description"
+                                    <textarea name="content_raw"
+                                              id = "content_raw"
                                               class="form-control"
                                               rows="20">
-                                             {{old('description', $item->content_raw)}}
+                                             {{old('content_raw', $item->content_raw)}}
                                      </textarea>
                                 </div>
                             </div>
@@ -65,15 +65,15 @@
 
 
                                 <label for="">Категория</label>
-                                <select class="form-control" name="parent_id" value="{{$item->category_id ?? ""}}">
-                                    <option ></option>
+                                <select class="form-control" name="category_id" >
+                                    <option value="{{$item->category_id ?? ""}}"></option>
                                     @include('blog.admin.posts.partials.categories', ['categories' => $categoryList])
                                 </select>
 
 
                                 <label for="">Выдержка</label>
-                                <textarea name="description"
-                                          id = "description"
+                                <textarea name="excerpt"
+                                          id = "excerpt"
                                           class="form-control"
                                           rows="8">
                                              {{old('excerpt', $item->excerpt)}}

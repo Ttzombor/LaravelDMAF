@@ -2,17 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b59e34e7-88d9-41ba-88c7-4df6624e33c9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/resources/views/blog/admin/posts/create.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/blog/admin/posts/edit.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/blog/admin/posts/partials/categories.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/blog/admin/posts/partials/form.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/blog/admin/posts/partials/form_additional.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Models/BlogCategory.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/BlogCategory.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Models/BlogPost.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/BlogPost.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Repositories/BlogPostsRepository.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Repositories/BlogPostsRepository.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/blog/admin/posts/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/blog/admin/posts/index.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/blog/posts/index.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Providers/AppServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Providers/AppServiceProvider.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/blog/admin/posts/create.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/blog/admin/posts/create.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/blog/admin/posts/partials/form.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/blog/admin/posts/partials/form.blade.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -209,7 +203,8 @@
       <workItem from="1571404209892" duration="599000" />
       <workItem from="1571642127460" duration="6346000" />
       <workItem from="1571664420567" duration="7544000" />
-      <workItem from="1571734919069" duration="8672000" />
+      <workItem from="1571734919069" duration="12810000" />
+      <workItem from="1571819117680" duration="4399000" />
     </task>
     <task id="LOCAL-00001" summary="Categories Admin Views and Controlelr">
       <created>1570611612253</created>
@@ -246,7 +241,14 @@
       <option name="project" value="LOCAL" />
       <updated>1571671232011</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Creating BlogPosts Controller">
+      <created>1571747680537</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1571747680537</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -271,6 +273,7 @@
     <MESSAGE value="Creating Repositories" />
     <MESSAGE value="Creating Category Repositories" />
     <MESSAGE value="Creating BlogPosts Controller/Model/Repository/Blade" />
-    <option name="LAST_COMMIT_MESSAGE" value="Creating BlogPosts Controller/Model/Repository/Blade" />
+    <MESSAGE value="Creating BlogPosts Controller" />
+    <option name="LAST_COMMIT_MESSAGE" value="Creating BlogPosts Controller" />
   </component>
 </project>
